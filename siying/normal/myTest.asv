@@ -1,0 +1,4 @@
+clc;clear;close all;
+rootdir = 'E:\zhaoshp\siying\20EEG_day5\1EEGmicrostate';
+filename=[rootdir,filesep,'ResultsFromGrandGrandMeanTemplate.csv'];
+group1=csvread(filename,1,7,15,);1 7 37
